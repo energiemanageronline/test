@@ -1,0 +1,165 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	min-width: 800px;
+	}
+
+a img {
+	border: 0;
+}	
+
+#container {
+	max-width: 1000px;
+	min-width : 500px;
+	text-align: left;
+	overflow: hidden;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+#links {
+	float: left;
+	width: 150px;
+	}
+
+#midden {
+	margin-left: 198px;
+   	margin-right:10px;
+   	overflow:hidden;
+	}
+	
+html>body #midden {
+	margin-left: 198px;
+	margin-right: 10px;
+	}
+
+html body {
+	background: #efefef;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	}
+
+.titel{
+	border: 0px;
+	margin : 0px;
+	padding: 0px;
+	max-width: 1000px;
+	min-width : 800px;
+	}
+	
+#titel1 {
+	background-image: url(../images/verlenglogo.jpg);
+	background-repeat: repeat-x; 
+	height:97px;
+	}
+
+#titel2 {
+	background-image: url(../images/left1bg.jpg);
+	background-repeat: repeat-x; 
+	height: 42px;
+}
+
+/* verticale menubalk 
+The outermost container of the Menu Bar, a fixed width box with no margin or padding */
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+.leftnav ul {  /* main menu style*/
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 150px;
+	border-bottom: 1px solid #ccc; 
+	}
+	
+.leftnav ul li {
+	position: relative;
+	}
+	
+/*Sub level menu items */	
+.leftnav ul li ul {
+	position: absolute;
+	width : 160px;
+	top: 0px;
+	visibility: hidden;
+	left: 164px;
+	}
+	
+/* Sub level menu links style */	
+.leftnav ul li a {
+	display: block;
+	overflow:auto; /*force hasLayout in IE7 */
+	color: black;
+	text-decoration: none;
+	background: #fff;
+	background: url(../images/menuback.png) repeat-x bottom left;
+	padding: 5px 15px;
+	width: auto;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	border-left: 1px solid black;
+	border-bottom: 0;
+	/* cursor:pointer; */
+	}
+
+.leftnav ul li a:visited{
+	color: black;
+}
+
+.leftnav ul li a:hover /*, .leftnav ul li ul li a:hover */ {
+	background-image: url(../images/menuback2.png);
+	color: white;
+	background-color: #888;
+	}
+
+span.arrow {
+	position: absolute;
+	right: 2px; 
+	background: transparent url(../images/arrow.gif) no-repeat center right;
+	}
+
+/*
+.submenuitem {
+	text-align:left;
+	}
+
+.leftnav li a:visited, .leftnav li a:active{
+	color: black;
+	}
+*/
+
+/* Holly Hack for IE \*/ 
+* html .leftnav ul li { float: left; height: 1%; }
+* html .leftnav ul li a { height: 1%; }
+* html #container {height: 1%; }
+/* End */
+
+.unordered_list  {
+	margin-top: 0;
+	padding-left: 0;
+	margin-left: 1em;
+	}
+	
+.unordered_list li {
+	padding-left: 0.5em;
+	margin-left : 0;
+	}
+	
+.underline {
+	text-decoration: underline;
+	}	
+	
+.citaat {
+	font-style: italic
+	}
+	
+.imgwrapleft {
+	clear : left;
+	float : left;
+	padding : 0px 10px 10px 0px;
+	}
+	
+.imgwrapright {
+	clear : left;
+	float : right;
+	padding : 0px 0px 10px 10px;	
+	}
